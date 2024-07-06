@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Tiny5&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  
+  .tiny5{
+    font-family: "Tiny5", sans-serif;
+  }
+
+  .card{
+    @apply  w-64  my-10 border-2 border-grey-300 rounded-lg shadow-lg pt-12 pb-8 px-8
+  }
+}
